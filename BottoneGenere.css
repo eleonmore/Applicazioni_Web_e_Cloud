@@ -1,0 +1,30 @@
+#tags_A{
+    width:80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.tag{
+    color:#F93154;
+    padding: 10px 20px;
+    background-color:white;
+    border-radius: 50px;            /* arrotonda "bottone" */
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color:#dc3545;
+    color: white;
+  }
+
+
+  .tag.highlight {
+    background-color: #dc3545;
+    color: white;
+  }
+  

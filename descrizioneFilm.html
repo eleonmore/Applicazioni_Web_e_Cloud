@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="posizionamento_condizioni.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- icone -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Descrizione film</title>
+
+</head>
+
+<body>
+
+
+    <div class="d-flex flex-column wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#"><b>MOVIE</b>
+                    <i class="bi bi-film"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <!-- sposta elementi nav verso destra-->
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="pagina_intro.html">Home page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="cosa_offriamo.html">Cosa offriamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contattaci">Contattaci</a>
+                        </li>
+                    </ul>
+                    <div class="align-self-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="login.html" class="nav-link text-white">Accedi al sito</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--****************************************************************************************************************-->
+
+        <main class="flex-fill">
+            <div class="container" id="infoFilm"></div>
+
+            </br></br></br>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <h3>Attori:</h3>
+                        <lable for=" numero_personaggio">
+                        </lable>
+                        <input type="number" id="numero_personaggio" min="0" onchange="Personaggi()">
+                        </br>
+                        <div id="risultatoAttore"> </div>
+                        </br>
+                    </div>
+                    <div class="col-3">
+                        <h3>Crew:</h3>
+                        <lable for=" numero_crew">
+                        </lable>
+                        <input type="number" id="numero_crew" min="0" onchange="Crew()">
+                        </br>
+                        <div id="risultatoCrew"> </div>
+                        </br>
+                        </br>
+                    </div>
+                </div>
+            </div>
+        </main>
+        </br>
+
+        <!--****************************************************************************************************************-->
+
+        <footer class="border-top text-muted bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        &copy; 2020 - Sito di vendita - noleggio film<br>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="politica.html" class="text-decoration-none text-dark">
+                            Politica di privacy
+                        </a><br>
+                        <a href="termini.html" class="text-decoration-none text-dark">
+                            Termini di uso
+                        </a><br>
+                        <a href="cosa_offriamo.html" class="text-decoration-none text-dark">
+                            Chi siamo
+                        </a><br>
+
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <span class="text-decoration-none text-dark">
+                            Contatto sito
+                        </span><br>
+                        E-mail: <a href="mailto:email@.com" class="text-decoration-none text-dark">
+                            email@.com
+                        </a><br>
+                        Telefono: <a href="phone:28999990000" class="text-decoration-none text-dark">
+                            (28) 99999-0000
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script type="text/javascript" src="descrizioneFilm.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

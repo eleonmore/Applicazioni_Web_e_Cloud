@@ -1,0 +1,47 @@
+
+#cardDiv{             /* mette film uno di fianco all'altro, display flex ---> contenuto flessibile */
+  display: flex;
+  flex-wrap: wrap;    /* adattare elementi sulla riga */
+  justify-content: space-around;
+  }
+
+#cardDiv_V{             
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#cardDiv_A{             
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.riquadro_film {    /* dimensioni riquadro rosso */
+    width: 200px;   
+    padding: 5px;
+    margin: 5px 0;
+    background-color:white;
+    border-radius: 10px;    /* bordi arrotondati */
+    position: relative;     /* per posizionare correttamente voto */
+  }
+
+  .riquadro_film:hover {
+    background-color:#dc3545;
+    color: white;
+  }
+
+  
+  .card-img-top {         /* ritaglia bordi copertina film */
+    border-radius: 10px;
+    width: 100px;
+    height: 300px;
+  }
+  
+  .card-title {         /* centra e ridimensiona titolo film */
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+  }
+  
