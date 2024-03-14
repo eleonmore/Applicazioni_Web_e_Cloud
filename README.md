@@ -1,4 +1,4 @@
-SPIEGAZIONE FILE
+Se vuoi sapere di più del progetto e del lavoro fatto leggi
 
 per poter utilizzare il progetto sul proprio computer bisogna scaricare tutti i file ed inserirli all'interno di una stessa cartella
 
